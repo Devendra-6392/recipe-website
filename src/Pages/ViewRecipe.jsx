@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const ViewRecipe = (props) => {
         const [recipe, setrecipe] = useState([])
-        const [input,setinput] = useState('')
+        const [input,setinput] = useState('cake')
         
 
         
